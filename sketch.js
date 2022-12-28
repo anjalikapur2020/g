@@ -19,7 +19,7 @@ function preload() {
     maleplayerimg = loadImage("assets/buttons/male.png")
     // femaleplayerimg = loadImage("assets/buttons/female.png")
 
-    maleleftplayerimg = loadImage("assets/buttons/maleleft.png")
+    // maleleftplayerimg = loadImage("assets/buttons/maleleft.png")
     femaleleftplayerimg = loadImage("assets/buttons/femaleleft.png")
 
     femalepopup = loadImage("assets/buttons/girlpopup.gif")
@@ -638,7 +638,6 @@ function draw() {
     if (gameState == "wait") {
         background(waitimg)
         home.hide()
-        // about.show()
         play.show()
         // sound.show()
         // poplevel1.hide()
@@ -724,8 +723,7 @@ function draw() {
                                         background(beginimg)
 
                                         play.hide()
-                                        // home.show()
-                                        // about.hide()
+                                       
                                         sound.hide()
                                         // poplevel1.show()
                                         selectplayer.show()
